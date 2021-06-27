@@ -1,0 +1,60 @@
+.rec.rec-arrow {
+    background: transparent;
+    color: #bc9e7b;
+    border:none;
+}
+
+
+.kbLGry button :hover:enabled{
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 2px 0 #333;
+
+}
+
+.kbLGry button:focus:enabled{
+
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 2px 0 #333;
+}
+
+.rec.rec-dot{
+    height: 5px;
+    width: 5px;
+    background-color: #bc9e7b ;
+    box-shadow: none;
+
+
+}
+.rec.rec-dot_active{
+    height: 5px;
+    width: 5px;
+    box-shadow: 0 0 1px 3px #bc9e7b;
+}
+
+.rec.rec-dot:hover{
+    box-shadow: 0 0 1px 3px #bc9e7b;
+}
+
+/* .rec.rec-arrow:hover, .rec.rec-arrow:focus {
+    color: #fff;
+    background-color: #b49471;
+    box-shadow: 0 0 2px 0 #333;
+} */
+
+.rec.rec-arrow:disabled{
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+:enabled{
+    color: red;;
+}
+
+
+/* .kbLGry:hover:enabled, .kbLGry:hover:enabled {
+    color: #b49471;
+    background-color: white;
+    box-shadow: 0 0 2px 0 #333;
+} */
